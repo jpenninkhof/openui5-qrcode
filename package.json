@@ -1,0 +1,9 @@
+{
+  "name": "prorailterugmeldingen",
+  "version": "0.1.0",
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-connect": "^1.0.2",
+    "grunt-connect-proxy": "0.1.10"
+  }
+}

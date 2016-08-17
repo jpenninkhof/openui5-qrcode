@@ -1,0 +1,29 @@
+<mvc:View
+	controllerName="com.penninkhof.qrcode.controller.Main"
+	xmlns:html="http://www.w3.org/1999/xhtml"
+	xmlns:mvc="sap.ui.core.mvc"
+	xmlns:p="com.penninkhof.controls"
+	xmlns="sap.m">
+	<App>
+		<pages>
+			<Page title="{i18n>title}">
+				<Panel width="auto" class="sapUiResponsiveMargin">
+					<FlexBox justifyContent="Center">
+						<Input value="{/code}" width="400px" valueLiveUpdate="true" />
+						<RadioButtonGroup columns="4" select="onColorSelect">
+							<RadioButton text="Black" />
+							<RadioButton text="Red" />
+							<RadioButton text="Green" />
+							<RadioButton text="Blue" />
+						</RadioButtonGroup>
+					</FlexBox>
+				</Panel>
+				<Panel width="auto" class="sapUiResponsiveMargin">
+					<FlexBox justifyContent="Center">
+						<p:QRCode code="{/code}" colorDark="{/color}" width="400px" height="400px" />
+					</FlexBox>
+				</Panel>
+			</Page>
+		</pages>
+	</App>
+</mvc:View>
