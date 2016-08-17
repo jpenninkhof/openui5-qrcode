@@ -26,4 +26,4 @@ This control encodes a arbitrary text into a QR code
 
 ## Example
 
-You can use this link to see the custom control in action: https://jpenninkhof.github.io/openui5-qrcode
+You can use this link to see the custom control in action: https://jpenninkhof.github.io/openui5-qrcode/
