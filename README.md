@@ -2,7 +2,7 @@
 
 This control encodes a arbitrary text into a QR code
 
-![Screenshot of QR code control](images/screenshot.png)
+![Screenshot of QR code control](demo/images/screenshot.png)
 
 ## Usage
 
