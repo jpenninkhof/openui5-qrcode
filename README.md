@@ -17,7 +17,8 @@ This control encodes a arbitrary text into a QR code
 
 1. Define the namespace in the top of your view `xmlns:p="com.penninkhof.controls"`, e.g.:
 
-``` <mvc:View
+```
+    <mvc:View
 	    controllerName="com.penninkhof.qrcode.controller.Main"
 	    xmlns:html="http://www.w3.org/1999/xhtml"
 	    xmlns:mvc="sap.ui.core.mvc"
