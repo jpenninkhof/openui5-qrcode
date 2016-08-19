@@ -1,35 +1,15 @@
 <!DOCTYPE HTML>
-<html>
-
-	<head>
-		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-		<meta charset="UTF-8">
-
-		<title>QR Demo</title>
-
-		<script id="sap-ui-bootstrap"
-			src="https://openui5.hana.ondemand.com/resources/sap-ui-core.js"
-			data-sap-ui-libs="sap.m"
-			data-sap-ui-theme="sap_bluecrystal"
-			data-sap-ui-compatVersion="edge"
-			data-sap-ui-resourceroots='{"com.penninkhof.qrcode": ""}'>
-		</script>
-
-		<link rel="stylesheet" type="text/css" href="css/style.css">
-
-		<script>
-			sap.ui.getCore().attachInit(function() {
-				new sap.m.Shell({
-					app: new sap.ui.core.ComponentContainer({
-						height : "100%",
-						name : "com.penninkhof.qrcode"
-					})
-				}).placeAt("content");
-			});
-		</script>
-	</head>
-
-	<body class="sapUiBody" id="content">
-	</body>
-
+<html lang="en-US">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="refresh" content="1;url=demo/index.html">
+        <script type="text/javascript">
+            window.location.href = "demo/index.html"
+        </script>
+        <title>QR Code</title>
+    </head>
+    <body>
+        <!-- Note: don't tell people to `click` the link, just tell them that it is a link. -->
+        If you are not redirected automatically, follow the <a href="demo/index.html">link to example</a>
+    </body>
 </html>

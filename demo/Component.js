@@ -20,7 +20,7 @@ sap.ui.define([
 
 			// Register custom controls
 			var modulePath = jQuery.sap.getModulePath(this.getManifestObject().getComponentName());
-			jQuery.sap.registerModulePath("com.penninkhof.controls", modulePath + "/control");
+			jQuery.sap.registerModulePath("com.penninkhof.controls", "../control");
 
 			// call the base component's init function
 			UIComponent.prototype.init.apply(this, arguments);
