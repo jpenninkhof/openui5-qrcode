@@ -12,7 +12,8 @@ This control encodes a arbitrary text into a QR code
 ```
     // Register custom controls
     var modulePath = jQuery.sap.getModulePath(this.getManifestObject().getComponentName());
-    jQuery.sap.registerModulePath("com.penninkhof.controls", modulePath + "/control");```
+    jQuery.sap.registerModulePath("com.penninkhof.controls", modulePath + "/control");
+```
 
 1. Define the namespace in the top of your view `xmlns:p="com.penninkhof.controls"`, e.g.:
 
@@ -21,7 +22,8 @@ This control encodes a arbitrary text into a QR code
 	    xmlns:html="http://www.w3.org/1999/xhtml"
 	    xmlns:mvc="sap.ui.core.mvc"
 	    xmlns:p="com.penninkhof.controls"
-	    xmlns="sap.m">```
+	    xmlns="sap.m">
+```
 
 1. And just add: `<p:QRCode code="Awesome code" />` to your view. Of course you could also bind the code to a model: `<p:QRCode code="{/code}" />`
 
