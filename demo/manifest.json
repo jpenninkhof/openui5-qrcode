@@ -68,6 +68,9 @@
 			"css": [{
 				"uri": "css/style.css"
 			}]
+		},
+		"resourceRoots": {
+			"com.penninkhof.controls": "../control"
 		}
 	}
 }

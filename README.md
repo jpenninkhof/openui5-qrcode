@@ -8,12 +8,16 @@ This control encodes a arbitrary text into a QR code
 
 Step 1. Add the control directory to the application directory (webapp) of your project (don't forget the 3rdparty directory)
 
-Step 2. Register a module path for the control in the init method of your Component.js file:
+Step 2. Register a module path for the custom control in the init method of your `manifest.json` file:
 
 ```
-    // Register custom controls
-    var modulePath = jQuery.sap.getModulePath(this.getManifestObject().getComponentName());
-    jQuery.sap.registerModulePath("com.penninkhof.controls", modulePath + "/control");
+    "sap.ui5": {
+        ...
+        "resourceRoots": {
+            "com.penninkhof.controls": "../control"
+        }
+        ...
+    }
 ```
 
 Step 3. Define the namespace in the top of your view `xmlns:p="com.penninkhof.controls"`, e.g.:
