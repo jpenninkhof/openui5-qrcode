@@ -1,0 +1,24 @@
+{
+  "name": "ui5-qrcode",
+  "description": "A UI5 control for displaying QR Codes",
+  "main": "control/QRCode.js",
+  "authors": [
+    "Jan Penninkhof <jan@penninkhof.com>"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "sap",
+    "ui5",
+    "qr",
+    "qr_code"
+  ],
+  "moduleType": ["amd"],
+  "homepage": "https://jpenninkhof.github.io/openui5-qrcode/",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "demo",
+  ]
+}
